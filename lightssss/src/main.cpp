@@ -60,18 +60,18 @@ void setup() {
     digitalWrite(LED_PIN, LOW);
 
     // Initialize BLE
-    BLEDevice::init("ESP32_BLE_Light");  // Set your ESP32 BLE device name
+    BLEDevice::init("ESP32_BLE_Light");  // 
 
 
     BLEServer *pServer = BLEDevice::createServer();
     pServer->setCallbacks(new MyServerCallBack());
 
     // Create the BLE Service using custom UUID
-    BLEService *pService = pServer->createService(SERVICE_UUID);  // Custom Service UUID
+    BLEService *pService = pServer->createService(SERVICE_UUID);  
     
     // Create the BLE Characteristic using custom UUID
     pCharacteristic = pService->createCharacteristic(
-        CHARACTERISTIC_UUID_TX,  // Custom Characteristic UUID
+        CHARACTERISTIC_UUID_TX, 
         BLECharacteristic::PROPERTY_NOTIFY
     );
 
@@ -94,5 +94,5 @@ void setup() {
 }
 
 void loop() {
-    // Nothing needed here, BLE handles everything
+  
 }
