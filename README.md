@@ -23,7 +23,6 @@ Install my-project with PlatformIO
     
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
 
 [![github](https://img.shields.io/badge/github-repo-black?logo=github)](https://github.com/Mattquin45/ESP32-relay-light-switch-with-BLE)
 
