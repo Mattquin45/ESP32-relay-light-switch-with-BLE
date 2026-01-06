@@ -1,5 +1,6 @@
 
 # Autimator
+<img src="https://img.sanishtech.com/u/774aea4e918a87028e6f0c3fd3458cd2.png" alt="Description of image">
 
 Developed a smart light switch automation system using C++ on an ESP32, incorporating Boolean logic to enable automated control. Implemented Bluetooth Low Energy (BLE) communication and relay-based circuitry for reliable wireless operation over household power systems. Optimized BLE signal processing to improve system responsiveness and reduce control latency.
 
